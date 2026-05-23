@@ -1,0 +1,32 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C3,C5,C7,C9,C10,C13,C14",8,100n,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+"C2,C4,C8,C11,C12",5,10u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C6,1,1u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+D1,1,RED,,,,LED_THT:LED_D3.0mm,
+D2,1,GREEN,,,,LED_THT:LED_D3.0mm,
+D3,1,BLUE,,,,LED_THT:LED_D3.0mm,
+D4,1,1N5817,,,,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf
+"D5,D6",2,ESD9B3.3ST5G,,,,Diode_SMD:D_SOD-923,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+F1,1,1A,,,,Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder,
+FB1,1,BLM21PG220,,,,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,
+J1,1,IN-,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,
+J2,1,IN+,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,
+J3,1,OUT+,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,
+J4,1,OUT-,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,
+"J5,J6,J7",3,Conn_01x02,,,,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+J8,1,Programming Header,,,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,
+J9,1,M1 OUT,,,,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+J10,1,M2 OUT,,,,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+J11,1,USB_C_Receptacle_USB2.0_16P,,,,Connector_USB:USB_C_Receptacle_GCT_USB4085,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+J12,1,12V PWR,,,,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+R1,1,330,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R2,R3",2,100,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R4,R5",2,5.1k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R6,R7",2,10k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+SW1,1,RESET,,,,Button_Switch_THT:SW_PUSH_6mm,
+SW2,1,BOOT,,,,Button_Switch_THT:SW_PUSH_6mm,
+U1,1,ESP32-S3-WROOM-1,,,,RF_Module:ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+U2,1,USBLC6-2SC6,,,,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+U3,1,module_mpu6050,,,,Usini Sensors:module_mpu6050,
+U4,1,M1 TB6612FNG,,,,Package_SO:SSOP-24_5.3x8.2mm_P0.65mm,https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
+U5,1,M2 TB6612FNG,,,,Package_SO:SSOP-24_5.3x8.2mm_P0.65mm,https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
